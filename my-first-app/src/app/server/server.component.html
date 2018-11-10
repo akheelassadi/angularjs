@@ -1,1 +1,7 @@
-<p>am calling single server</p>
+<p>am calling single server,
+  below is the option to add new server.
+  <br> disable button after two seconds
+</p>
+<button class="btn btn-primary" [disabled] = "!addNewServer">add new server</button>
+<p [innerText] = "addNewServer"></p>
+
